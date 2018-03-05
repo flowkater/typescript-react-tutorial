@@ -4,7 +4,7 @@ import { TodoItemData } from 'store/modules/todos';
 import { List } from 'immutable';
 
 interface Props {
-  input: String;
+  input: string;
   todoItems: List<TodoItemData>;
   onCreate(): void;
   onRemove(id: number): void;
